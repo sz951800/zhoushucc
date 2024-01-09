@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five-Country Economic & Health Overview</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+        body {
+            background-color: #f5f5f5; /* Set the background color for the entire page */
+        }
+
+        .big-numbers {
+            background-color: #fff; /* Set the background color for the big number section */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .chart-container {
+            margin-bottom: 30px;
+        }
+
+        .chart-box {
+            padding: 20px;
+            margin: 10px 0;
+            height: 500px;
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #scatterplot {
+            flex: 1;
+        }
+
+        .scatter-shift-left {
+            margin-left: 90px;
+        }
+
+        .table-container {
+            max-width: 600px; /* This will give the table a narrower width */
+            margin-left: 100px;
+            margin-right: auto;
+        }
+        .buttons-left {
+            margin-left: 350px;
+    }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Five-Country Economic & Health Overview in 2021</h1>
+        <!-- Big Numbers -->
+        <div class="row text-center big-numbers">
+            <div class="col-md-3">
+                <span id="avg-gdp-value"></span><br>
+                Average GDP per capita
+            </div>
+            <div class="col-md-3">
+                <span id="avg-life-expectancy-value"></span><br>
+                Average Life Expectancy
+            </div>
+            <div class="col-md-3">
+                <span id="highest-gdp-country"></span>: <span id="highest-gdp-value"></span><br>
+                Country with Highest GDP per capita
+            </div>
+            <div class="col-md-3">
+                <span id="highest-life-expectancy-country"></span>: <span id="highest-life-expectancy-value"></span><br>
+                Country with Highest Life Expectancy
+            </div>
+        </div>
+        <!-- Table placeholder -->
+        <div class="row chart-container">
+            <div class="col-12 table-container">
+                <div id="data-table"></div>
+            </div>
+        </div>
+
+        <div class="row chart-container">
+            <!-- Scatterplot -->
+            <div class="col-lg-6 mb-4 scatter-shift-left mr-lg-2">
+                <div class="chart-box">
+                    <h3 class="text-center"></h3>
+                    <div id="scatterplot"></div>
+                </div>
+            </div>
+        
+            <!-- Bar Chart -->
+           
+        </div>
+
+
+        <!-- Link to bar chart and line chart page -->
+        <div class="row mt-4">
+            <div class="col-12 buttons-left">
+                <a href="charts.html" class="btn btn-primary">View Details</a>
+                <a href="index1.html" class="btn btn-secondary ml-3">GDP Contribution</a>
+            </div>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS and Popper.js (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- Include your D3 scripts here -->
+    <script src="bignumber.js"></script>
+    <script src="table.js"></script>
+    <script src="scatterplot.js"></script>
+</body>
+
+</html>

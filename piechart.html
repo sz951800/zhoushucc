@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pie Chart Visualization</title>
+    <style>
+        .chart-container {
+            display: flex;
+            justify-content: center; /* Centers the items horizontally */
+            align-items: center; /* Centers the items vertically */
+            flex-wrap: wrap; /* Allows items to wrap if needed */
+        }
+
+        .chart-container > div {
+            margin: 10px 5px; /* Adjust vertical and horizontal margins */
+            flex: 0 0 auto; /* No flex grow, no flex shrink, auto basis */
+            width: calc(30% - 10px); /* Sets width to 1/3rd of container minus margin */
+        }
+
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 28px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+
+        .legend-container {
+            /* Styles for legend positioning and layout */
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h2 style="text-align: center;">Percentage of Rides at Different Times of the Day</h2>
+        
+        <div class="chart-container">
+            <div ref="pieChart2019"></div>
+            <div ref="pieChart2020"></div>
+            <div ref="pieChart2022"></div>
+        </div>
+        <div id="legend-container"></div>
+    </div>
+    <script src="piechart.js"></script>
+</body>
+</html>
+

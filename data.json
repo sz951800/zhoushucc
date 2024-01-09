@@ -1,0 +1,32 @@
+[
+    {
+      "Country": "Australia",
+      "GDP": 66915.9,
+      "Life Expectancy": 84.5625,
+      "population (thousands)":25921.089
+    },
+    {
+      "Country": "Germany",
+      "GDP": 51073.1,
+      "Life Expectancy": 80.6301,
+      "population (thousands)":83408.554
+    },
+    {
+      "Country": "Japan",
+      "GDP": 39649.9,
+      "Life Expectancy": 84.7839,
+      "population (thousands)":124612.53
+    },
+    {
+      "Country": "UK",
+      "GDP": 46541.8,
+      "Life Expectancy": 80.7422,
+      "population (thousands)":67281.039
+    },
+    {
+      "Country": "US",
+      "GDP": 69184.7,
+      "Life Expectancy": 77.1982,
+      "population (thousands)":336997.624
+    }
+  ]
