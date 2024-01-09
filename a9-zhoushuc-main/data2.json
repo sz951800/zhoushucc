@@ -1,0 +1,177 @@
+[
+    {
+        "Row ID": 0,
+        "Country or Area": "Australia",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 66915.9,
+        "Year": 2021
+    },
+    {
+        "Row ID": 1,
+        "Country or Area": "Australia",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 55774.2,
+        "Year": 2020
+    },
+    {
+        "Row ID": 2,
+        "Country or Area": "Australia",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 54267.1,
+        "Year": 2019
+    },
+    {
+        "Row ID": 3,
+        "Country or Area": "Australia",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 58225.2,
+        "Year": 2018
+    },
+    {
+        "Row ID": 4,
+        "Country or Area": "Australia",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 57430.8,
+        "Year": 2017
+    },
+    {
+        "Row ID": 5,
+        "Country or Area": "Germany",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 51073.1,
+        "Year": 2021
+    },
+    {
+        "Row ID": 6,
+        "Country or Area": "Germany",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 46678.5,
+        "Year": 2020
+    },
+    {
+        "Row ID": 7,
+        "Country or Area": "Germany",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 46762.6,
+        "Year": 2019
+    },
+    {
+        "Row ID": 8,
+        "Country or Area": "Germany",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 47944.5,
+        "Year": 2018
+    },
+    {
+        "Row ID": 9,
+        "Country or Area": "Germany",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 44670.2,
+        "Year": 2017
+    },
+    {
+        "Row ID": 10,
+        "Country or Area": "Japan",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 39649.9,
+        "Year": 2021
+    },
+    {
+        "Row ID": 11,
+        "Country or Area": "Japan",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 40242.1,
+        "Year": 2020
+    },
+    {
+        "Row ID": 12,
+        "Country or Area": "Japan",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 40728.6,
+        "Year": 2019
+    },
+    {
+        "Row ID": 13,
+        "Country or Area": "Japan",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 39901.8,
+        "Year": 2018
+    },
+    {
+        "Row ID": 14,
+        "Country or Area": "Japan",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 38929,
+        "Year": 2017
+    },
+    {
+        "Row ID": 15,
+        "Country or Area": "UK",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 46541.8,
+        "Year": 2021
+    },
+    {
+        "Row ID": 16,
+        "Country or Area": "UK",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 40331.5,
+        "Year": 2020
+    },
+    {
+        "Row ID": 17,
+        "Country or Area": "UK",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 42784,
+        "Year": 2019
+    },
+    {
+        "Row ID": 18,
+        "Country or Area": "UK",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 43324.1,
+        "Year": 2018
+    },
+    {
+        "Row ID": 19,
+        "Country or Area": "UK",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 40617.7,
+        "Year": 2017
+    },
+    {
+        "Row ID": 20,
+        "Country or Area": "US",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 69184.7,
+        "Year": 2021
+    },
+    {
+        "Row ID": 21,
+        "Country or Area": "US",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 62690.8,
+        "Year": 2020
+    },
+    {
+        "Row ID": 22,
+        "Country or Area": "US",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 63953.7,
+        "Year": 2019
+    },
+    {
+        "Row ID": 23,
+        "Country or Area": "US",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 61820.5,
+        "Year": 2018
+    },
+    {
+        "Row ID": 24,
+        "Country or Area": "US",
+        "Item": "Gross Domestic Product (GDP)",
+        "Value": 59059.6,
+        "Year": 2017
+    }
+]
